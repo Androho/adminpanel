@@ -46,6 +46,7 @@ export default {
       this.isAdmin = false
     } else this.isAdmin = true
     console.log(this.isAdmin)
+    console.log(user)
   }
 }
 </script>

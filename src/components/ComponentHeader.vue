@@ -8,12 +8,7 @@
           <span class="">{{ date }}</span>
           <ul class="right hide-on-small-and-down">
             <li>
-              <a
-                  class="dropdown-trigger white-text upper"
-                  href="#"
-                  data-target="dropdown"
-                  ref="drop"
-              >
+              <a class="dropdown-trigger white-text upper" href="#" data-target="dropdown" ref="drop">
                 {{ username }}
                 <i class="material-icons right">arrow_drop_down</i>
               </a>
@@ -41,7 +36,7 @@
 </template>
 
 <script>
-import {useRouter} from "vue-router";
+import { useRouter } from "vue-router";
 
 export default {
   name: "ComponentHeader",
